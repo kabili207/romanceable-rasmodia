@@ -1,5 +1,5 @@
 ﻿{
-  "Format": "1.11.0",
+  "Format": "1.20.0",
   "ConfigSchema": {
     "Witch had a Warlock Husband": {
         "AllowValues": "Yes, No",
@@ -40,15 +40,45 @@
 			"FromFile": "assets/Cursors_Witch.png",
 			"ToArea": { "X": 277, "Y": 1886, "Width": 34, "Height": 57 },
 			"When": { "Pretty Witch": "Yes" }
-		},		  		  
+		},
+    {
+          "Action": "EditImage",
+          "Target": "LooseSprites/emojis",
+          "FromFile": "assets/Witch_emoji.png",
+		  "ToArea": { "X": 90, "Y": 108, "Width": 9, "Height": 9 },
+		},
+   {
+			"Action": "EditImage",
+			"Target": "LooseSprites/JunimoNote",
+			"FromFile": "assets/JunimoNote_Witch.png",
+			"ToArea": { "X": 416, "Y": 212, "Width": 32, "Height": 32 },
+		},
+   {
+			"Action": "EditImage",
+			"Target": "Characters/KrobusRaven",
+			"FromFile": "assets/KrobusRaven_Witch.png",
+			"ToArea": { "X": 0, "Y": 64, "Width": 128, "Height": 39 },
+		},
+	/*{
+        "Action": "EditData",
+        "Target": "Data/Bundles",
+        "Fields": {
+            "Bulletin Board/33": {
+                0: "Enchantress's"
+                }
+            },
+        },*/
     {
           "Action": "EditData",
           "Target": "Data/mail",
           "Entries": {
-             "Wizard": "Greetings, young adept.^I have enclosed in this package an item of arcane significance. Use it wisely.   ^   -M. Rasmodia, Witch%item object 422 1 82 1 84 1 70 1 %%",
-             "wizardJunimoNote": "My sources tell me you've been poking around inside the old community center.^Why don't you pay me a visit?^My chambers are west of the forest lake, in the stone tower. I may have information concerning your... 'rat problem'.^   -M. Rasmodia, Witch %item quest 1 true %%",
-             "winter_12_1": "@-^I am resarching the forgotten art of shadow divination. I require an item known as 'Void Essence'. Bring it to me and you will be rewarded.^ -M. Rasmodia, Witch %item quest 111 %%",
-			 "winter_5_2": "@,^I'm creating an enchanted staff of phenomenal power.^However, I'm missing something: an Iridium Bar.^I'm willing to pay 5x the market value for it. Bring it as soon as you can.^ -M. Rasmodia, Witch %item quest 123 %%"	 
+             "Wizard": "Greetings, young adept.^I have enclosed in this package an item of arcane significance. Use it wisely.   ^   -M. Rasmodia, Witch%item object 422 1 82 1 84 1 70 1 %%[#]A Gift From the Witch",
+             "wizardJunimoNote": "My sources tell me you've been poking around inside the old community center.^Why don't you pay me a visit?^My chambers are west of the forest lake, in the stone tower. I may have information concerning your... 'rat problem'.^   -M. Rasmodia, Witch %item quest 1 true %%[#]Witch's Summons",
+             "winter_12_1": "@-^I am resarching the forgotten art of shadow divination. I require an item known as 'Void Essence'. Bring it to me and you will be rewarded.^ -M. Rasmodia, Witch %item quest 111 %%[#]Witch's Request",
+			 "winter_5_2": "@,^I'm creating an enchanted staff of phenomenal power.^However, I'm missing something: an Iridium Bar.^I'm willing to pay 5x the market value for it. Bring it as soon as you can.^ -M. Rasmodia, Witch %item quest 123 %%[#]Witch Needs A Rare Item",
+			 "WizardReward": "The specimen you delivered offered great insight into the machinations of the fell beings we call 'monsters'.^^I've formulated a pungent tincture that these beings find intoxicating. Use it with caution...^^   -M. Rasmodia, Witch%item craftingRecipe Monster_Musk %%[#]The Witch's Discovery",
+			 "WizardReward2": "Thanks to the ectoplasm you delivered to me, I've made a major breakthrough in the field of arcane engineering.^^Enclosed, you'll find blueprints for a most useful machine...^^   -M. Rasmodia, Witch%item craftingRecipe Mini-Obelisk %%[#]The Witch's Breakthrough",
+			 "KrobusCrafting": "@, I'm not sure how the human message system works, so I asked Witch to help me write this letter.^^I hope you are doing okay.^^I wanted to share this with you... it's notes on how my people build a certain item.^^   -Krobus%item craftingRecipe Dark_Sign %%[#]A letter from Krobus",
 			 }
        },
 	{
@@ -81,6 +111,16 @@
 			 "123": "ItemDelivery/Staff Of Power/The Witch is creating a staff of phenomenal power. Who knows what it's for. She needs an iridium bar to finish it./Bring Witch an Iridium Bar./Wizard 337/-1/5000/-1/true/Ah, precious iridium. You've done well, @. You have my gratitude. Now, leave."
 			 },
 		  "When": { "Witch had a Warlock Husband": "Yes" }			 
+		},
+	{
+		  "Action": "EditData",
+		  "Target": "Strings/SpecialOrderStrings",
+		  "Entries": {
+			"Wizard_Text": "I seek an extremely rare and powerful goop, known as 'ectoplasm'. It can be found in the remains of slain ghosts.      -M. Rasmodia",
+			"Wizard_Objective_0_Text": "Deliver an ectoplasm to Witch",
+			"Wizard2_Text": "I require assistance in tracking down the rare and dangerous prismatic slime, within the local caves. Bring me a jar of its prismatic jelly and you will be duly rewarded.        -M. Rasmodia",
+			"Wizard2_Objective_1_Text": "Deliver a prismatic jelly to Witch",
+			},	 
 		},
 		
 	{

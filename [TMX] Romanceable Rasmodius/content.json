@@ -1,0 +1,8 @@
+{
+  "spouseRooms": [
+	{
+      "name": "Wizard",
+	  "file": "SpouseRoomWizard.tmx",
+    }
+  ]
+}

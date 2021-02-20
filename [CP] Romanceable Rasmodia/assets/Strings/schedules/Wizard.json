@@ -1,5 +1,5 @@
 {
-        "fall_26.000": "I'm helping prepare for tomorrow's festivities.$9",
+	"fall_26.000": "I'm helping prepare for tomorrow's festivities.$9",
 	"fall_26.001": "This requires the utmost concentration.$3",
 	"fall_26.002": "Please do not disturb me.$3",
 	"fall_26.003": "There is much yet to be done to connect this plane to the other.$1",
@@ -7,7 +7,7 @@
 	"fall_26.005": "...",
 	"fall_26.006": "This task taxes me. I will need to rest soon.$10",
 	"winter.000": "Sleep calls and yet refuses to take me.$10",
-        "spring.000": "Even I need fresh air sometimes.$1",
-        "marriage_Thu.000": "My heart.$1#$b#My tower seems empty compared to our home.$1#$b#But I cannot deny the benefits of working here, at times.$3",
-        "marriage_Thu.001": "Ah, @. Have you come to check on me?$1#$b#I'll be home, soon. Just after I finish one... last... thing...$3#$b#...$3#$b#What time is it?$10#$b#...I may have forgotten to eat lunch.$11"
+	"spring.000": "Even I need fresh air sometimes.$1",
+	"marriage_Thu.000": "My heart.$1#$b#My tower seems empty compared to our home.$1#$b#But I cannot deny the benefits of working here, at times.$3",
+	"marriage_Thu.001": "Ah, @. Have you come to check on me?$1#$b#I'll be home, soon. Just after I finish one... last... thing...$3#$b#...$3#$b#What time is it?$10#$b#...I may have forgotten to eat lunch.$11"
 }

@@ -1,17 +1,17 @@
 {
-    "Name": "Romanceable Rasmodius",
-    "Author": "Written by WerewolfMaster, haywrites, SVE compatability by PaintedParrot",
-    "Version": "1.3.6",
-    "Description": "Introduces a fully-romanceable and marriageable wizard, building off of haywrites' Wizard Narrative Overhaul. Compatible with all portrait mods and Stardew Valley Expanded.",
-    "UniqueID": "Parrot.RomRas",
-    "UpdateKeys": ["Nexus:7000"],
-    "Dependencies": [
-        {
-		  "UniqueID": "FlashShifter.StardewValleyExpandedCP",
-		  "IsRequired": true
-        }
-     ],
-    "ContentPackFor": {
-       "UniqueID": "Pathoschild.ContentPatcher"
-    }
- }
+   "Name": "Romanceable Rasmodius",
+   "Author": "Written by WerewolfMaster, haywrites, SVE compatability by PaintedParrot",
+   "Version": "1.3.6",
+   "Description": "Introduces a fully-romanceable and marriageable wizard, building off of haywrites' Wizard Narrative Overhaul. Compatible with all portrait mods and Stardew Valley Expanded.",
+   "UniqueID": "Parrot.RomRas",
+   "UpdateKeys": [ "Nexus:7000" ],
+   "Dependencies": [
+      {
+         "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+         "IsRequired": true
+      }
+   ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

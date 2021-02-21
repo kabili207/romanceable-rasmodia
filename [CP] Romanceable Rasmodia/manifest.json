@@ -5,13 +5,17 @@
    "Description": "Introduces a fully-romanceable and marriageable Witch, building off of haywrites' Wizard Narrative Overhaul. Compatible with Stardew Valley Expanded.",
    "UniqueID": "kabi-chan.RomRas",
    "UpdateKeys": [  ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
    "Dependencies": [
       {
          "UniqueID": "FlashShifter.StardewValleyExpandedCP",
          "IsRequired": true
+      },
+      {
+         "UniqueID": "spacechase0.JsonAssets",
+         "IsRequired": true
       }
-   ],
-   "ContentPackFor": {
-      "UniqueID": "Pathoschild.ContentPatcher"
-   }
+   ]
 }
